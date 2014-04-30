@@ -1,5 +1,5 @@
 {
-    "name": "bw/recaptcha",
+    "name": "captcha/recaptcha",
     "type": "library",
     "description": "Google Recaptcha PHP SDK",
     "keywords": ["recaptcha", "captcha"],
