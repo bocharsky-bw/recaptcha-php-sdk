@@ -1,6 +1,6 @@
 <?php
 
-namespace BW\Recaptcha;
+namespace BW\Captcha;
 
 class Recaptcha {
     
