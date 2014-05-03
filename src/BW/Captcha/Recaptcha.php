@@ -38,10 +38,14 @@ class Recaptcha
     private $privateKey;
 
 
-    function __construct($publicKey = '', $privateKey = '')
+    public function __construct($publicKey = '', $privateKey = '')
     {
         $this->setPublicKey($publicKey);
         $this->setPrivateKey($privateKey);
+    }
+    
+    public function __toString() {
+        return $this->getHtml();
     }
 
 
