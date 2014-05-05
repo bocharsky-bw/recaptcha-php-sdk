@@ -13,7 +13,7 @@ class Recaptcha
     /**
      * Current version of reCAPTCHA PHP SDK
      */
-    const VERSION = '1.11.0';
+    const VERSION = '1.11.1';
 
     /**
      * The reCAPTCHA API server URL
