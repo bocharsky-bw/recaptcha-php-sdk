@@ -267,5 +267,13 @@ class Recaptcha
         $this->privateKey = (string)$privateKey;
         return $this;
     }
+    
+    public function includeOriginalFunctions() {
+        $path = dirname(__FILE__) . '/../../../recaptcha/recaptchalib.php';
+        if (is_file($path)) {
+            require_once $path;
+        }
+        return $this;
+    }
 
 }
