@@ -2,7 +2,7 @@
     "name": "captcha/recaptcha",
     "type": "library",
     "description": "Google Recaptcha PHP SDK",
-    "keywords": ["bw", "recaptcha", "captcha"],
+    "keywords": ["recaptcha", "captcha", "bw"],
     "homepage": "https://github.com/bocharsky-bw/recaptcha-php-sdk",
     "license": "MIT",
     "authors": [
